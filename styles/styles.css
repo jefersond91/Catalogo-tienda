@@ -1,0 +1,93 @@
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* body{
+        background-color: aqua;
+        min-height: 100vh;
+}
+
+#contenedor-principal{
+        padding: 2rem;
+        width: 100%;
+        text-align: center;
+        background-color: rgb(56, 2, 250);
+}
+
+button{
+        padding: 0.5rem;
+        color: white;
+        background-color: blueviolet;
+        width: 200px;
+} */
+
+nav{
+        padding: 1rem 2rem;
+        background-color: white;
+        box-shadow: 10px 10px 10px 10px #ccc;
+        display: flex;
+        justify-content: space-between;
+}
+
+nav div{
+        position: relative;
+}
+
+nav img{
+        width: 50px;
+}
+
+nav div span{
+        width: 30px;
+        height: 30px;
+        background-color: rgba(0, 0, 139, 0.616);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+}
+
+main{
+        padding: 1rem;
+}
+
+main h1{
+        text-align: center;
+        margin: 1rem;
+}
+
+main section{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+}
+
+main section div.card{
+        background-color: white;
+        box-shadow: 10px 10px 10px 10px #ccc;
+        width: 23%;
+        text-align: center;
+        padding-bottom: 1rem;
+        margin: 1rem;
+}
+
+div.card img{
+        width: 100%;
+}
+div.card h3, div.card p{
+        margin: 0.5rem;
+}
+
+div.card button{
+        width: 75%;
+        padding: 0.5rem 1rem;
+        background-color: darkblue;
+        color: white;
+}
